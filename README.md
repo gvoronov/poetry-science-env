@@ -57,7 +57,7 @@ Can also install with any subset of the following optional dependencies
 poetry install --with chemistry,torch,metabolomics
 ```
 
-# Mount EFS
+## Mount EFS
 
 First navigate to the directory that `poetry-science-evn` is cloned into. Then just the first time on a new instance
 ```
@@ -69,11 +69,12 @@ Finally mount efs with
 ./scripts/mount_efs.sh
 ```
 
-# Setup Jupyter
+## Setup Jupyter
 
 Copy local `jupyter_notebook_config.py` to `~/.jupyter/jupyter_notebook_config.py`
 
-# Lauch Jupyter
+## Lauch Jupyter
+
 First navigate to the directory that `poetry-science-evn` is cloned into and then if necessary,
 
 ```
@@ -81,23 +82,12 @@ chmod u+x scripts/launch_jupyter.sh
 ```
 
 Then (typically through `screen`)
+
 ```
 ./scripts/launch_jupyter.sh <PORT>
 ```
 
-## Setup scripts
-`mkdir ~/scripts`
-
-If `/efs` doesn't exist run `sudo mkdir /efs`
-
-Create `~/scripts/mount_efs.sh` with following contents
-```
-sudo mount -t nfs4 \
--o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,\
-noresvport fs-3bb6048f.efs.us-east-1.amazonaws.com:/ /efs
-```
-
-Create `~/scripts/launch_jupyter.sh` with following contents
+## Old launch jupyter
 
 * on a standard EC2
 ```
