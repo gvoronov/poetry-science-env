@@ -55,6 +55,16 @@ Can also install with any subset of the following optional dependencies
 
 `poetry install --with chemistry,torch,metabolomics`
 
+# Lauch Jupyter
+First navigate to the directory that `poetry-science-evn` is cloned intom then if necessary,
+```
+chmod u+x scripts/launch_jupyter.sh
+```
+Then (typically through `screen`)
+```
+`./scripts/launch_jupyter.sh <PORT>`
+```
+
 ## Setup scripts
 `mkdir ~/scripts`
 
