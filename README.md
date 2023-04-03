@@ -53,13 +53,33 @@ poetry run python -m ipykernel install --user --name sci-env
 
 Can also install with any subset of the following optional dependencies
 
-`poetry install --with chemistry,torch,metabolomics`
+```
+poetry install --with chemistry,torch,metabolomics
+```
+
+# Mount EFS
+
+First navigate to the directory that `poetry-science-evn` is cloned into. Then just the first time on a new instance
+```
+mkdir /efs
+chmod u+x scripts/mount_efs.sh
+```
+Finally mount efs with
+```
+./scripts/mount_efs.sh
+```
+
+# Setup Jupyter
+
+Copy local `jupyter_notebook_config.py` to `~/.jupyter/jupyter_notebook_config.py`
 
 # Lauch Jupyter
-First navigate to the directory that `poetry-science-evn` is cloned intom then if necessary,
+First navigate to the directory that `poetry-science-evn` is cloned into and then if necessary,
+
 ```
 chmod u+x scripts/launch_jupyter.sh
 ```
+
 Then (typically through `screen`)
 ```
 ./scripts/launch_jupyter.sh <PORT>
@@ -87,11 +107,4 @@ jupyter notebook --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 
 * on DS-EC2
 ```
 jupyter-nbclassic --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 8859
-```
-
-Grant execute permissions
-
-```
-chmod u+x ~/scripts/mount_efs.sh
-chmod u+x ~/scripts/launch_jupyter.sh
 ```
