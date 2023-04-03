@@ -92,13 +92,13 @@ Finally mount efs with
 ./scripts/mount_efs.sh
 ```
 
-### Jupyter
+## Jupyter
 
-## Setup 
+### Setup 
 
 Copy local `jupyter_notebook_config.py` to `~/.jupyter/jupyter_notebook_config.py`
 
-## Lauch
+### Lauch
 
 First navigate to the directory that `poetry-science-evn` is cloned into and then if necessary,
 
