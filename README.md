@@ -56,6 +56,16 @@ Can also install with any subset of the following optional dependencies
 `poetry install --with chemistry,torch,metabolomics`
 
 ## Setup scripts
+`mkdir ~/scripts`
+
+If `/efs` doesn't exist run `sudo mkdir /efs`
+
+Create `~/scripts/mount_efs.sh` with following contents
+```
+sudo mount -t nfs4 \
+-o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,\
+noresvport fs-3bb6048f.efs.us-east-1.amazonaws.com:/ /efs
+```
 
 Create `~/scripts/launch_jupyter.sh` with following contents
 
@@ -69,9 +79,9 @@ jupyter notebook --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 
 jupyter-nbclassic --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 8859
 ```
 
-Create `~/scripts/mount_efs.sh` with following contents
+Grant execute permissions
+
 ```
-sudo mount -t nfs4 \
--o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,\
-noresvport fs-3bb6048f.efs.us-east-1.amazonaws.com:/ /efs
+chmod u+x ~/scripts/mount_efs.sh
+chmod u+x ~/scripts/launch_jupyter.sh
 ```
