@@ -57,19 +57,19 @@ Can also install with any subset of the following optional dependencies
 
 ## Setup scripts
 
-Create `~/scripts/launch_jupyter.sh`
+Create `~/scripts/launch_jupyter.sh` with following contents
 
-### On a standard EC2
+* on a standard EC2
 ```
 jupyter notebook --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port <PORT>
 ```
 
-### On DS-EC2
+* on DS-EC2
 ```
 jupyter-nbclassic --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 8859
 ```
 
-Create `~/scripts/mount_efs.sh`
+Create `~/scripts/mount_efs.sh` with following contents
 ```
 sudo mount -t nfs4 \
 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,\
