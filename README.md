@@ -57,7 +57,30 @@ Can also install with any subset of the following optional dependencies
 poetry install --with chemistry,torch,metabolomics
 ```
 
-## Mount EFS
+## Setup EFS
+
+### Prerequisite: install `amazon-efs-utils` package
+
+If not installed, need to install the `amazon-efs-utils` package. To do so need to clone it
+
+```
+git clone https://github.com/aws/efs-utils
+```
+
+Then navigate to the directory that contains the `amazon-efs-utils` package.
+
+```
+cd /path/efs-utils
+```
+
+Finally install the package
+
+```
+./build-deb.sh
+sudo apt-get -y install ./build/amazon-efs-utils*deb
+```
+
+### Mount EFS
 
 First navigate to the directory that `poetry-science-evn` is cloned into. Then just the first time on a new instance
 ```
