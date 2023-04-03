@@ -92,11 +92,13 @@ Finally mount efs with
 ./scripts/mount_efs.sh
 ```
 
-## Setup Jupyter
+### Jupyter
+
+## Setup 
 
 Copy local `jupyter_notebook_config.py` to `~/.jupyter/jupyter_notebook_config.py`
 
-## Lauch Jupyter
+## Lauch
 
 First navigate to the directory that `poetry-science-evn` is cloned into and then if necessary,
 
@@ -110,7 +112,7 @@ Then (typically through `screen`)
 ./scripts/launch_jupyter.sh <PORT>
 ```
 
-## Old launch jupyter
+### Old launch
 
 * on a standard EC2
 ```
