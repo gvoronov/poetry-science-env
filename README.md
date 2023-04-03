@@ -62,7 +62,7 @@ chmod u+x scripts/launch_jupyter.sh
 ```
 Then (typically through `screen`)
 ```
-`./scripts/launch_jupyter.sh <PORT>`
+./scripts/launch_jupyter.sh <PORT>
 ```
 
 ## Setup scripts
