@@ -37,12 +37,14 @@ libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-d
 ```
 
 ## Install & setup gh
+
 ```
 sudo apt install gh
 gh auth login
 ```
 
 ## Setup sci env
+
 ```
 git clone https://github.com/gvoronov/poetry-science-env.git
 cd poetry-science-env/
@@ -55,6 +57,19 @@ Can also install with any subset of the following optional dependencies
 
 ```
 poetry install --with chemistry,torch,metabolomics
+```
+## Setup AWS
+
+First setup AWS CLI
+
+```
+sudo apt  install awscli
+```
+
+Then run
+
+```
+aws configure
 ```
 
 ## Setup EFS
