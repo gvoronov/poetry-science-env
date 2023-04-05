@@ -127,7 +127,7 @@ Finally mount efs with
 
 Copy `/path/poetry-science-env/configs/jupyter_notebook_config.py` to `~/.jupyter/jupyter_notebook_config.py`. From the directory that `poetry-science-evn` is cloned into run
 
-'''
+```
 mkdir ~/.jupyter
 cp configs/jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
 ```
