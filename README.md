@@ -2,6 +2,14 @@
 
 Instrucitons for setting up a new EC2
 
+## Install compiler
+
+```
+sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev curl \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
 ## Install pyenv
 
 ```
@@ -19,6 +27,10 @@ eval "$(pyenv init -)"
 
 run `source ~/.bashrc`
 
+```
+pyenv install 3.9.13
+```
+
 ## Install poetry
 
 ```
@@ -33,13 +45,7 @@ export PATH="/home/ubuntu/.local/bin:$PATH"
 
 run `source ~/.bashrc`
 
-## Install compiler
 
-```
-sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev \
-libbz2-dev libreadline-dev libsqlite3-dev curl \
-libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
-```
 
 ## Install & setup gh
 
