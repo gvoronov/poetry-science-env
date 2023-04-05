@@ -1,6 +1,6 @@
 # poetry-science-env
 
-Instrucitons for setting up a new EC2
+Instructions for setting up a new EC2
 
 ## Install compiler
 
@@ -24,7 +24,6 @@ sudo apt-get -y install cuda
 ```
 curl https://pyenv.run | bash
 ```
-
 
 Add the following to `~/.bashrc`
 
@@ -139,7 +138,7 @@ mkdir ~/.jupyter
 cp configs/jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
 ```
 
-### Lauch
+### Launch
 
 First navigate to the directory that `poetry-science-evn` is cloned into and then if necessary,
 
