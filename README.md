@@ -63,7 +63,7 @@ poetry install --with chemistry,torch,metabolomics
 First setup AWS CLI
 
 ```
-sudo apt  install awscli
+sudo apt install awscli
 ```
 
 Then run
