@@ -25,7 +25,7 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 ```
 
-run `source ~/.bashrc`
+Run `source ~/.bashrc`, then install python.
 
 ```
 pyenv install 3.9.13
