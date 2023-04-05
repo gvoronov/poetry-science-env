@@ -10,6 +10,15 @@ libbz2-dev libreadline-dev libsqlite3-dev curl \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
+If running an instance with GPUs run the following as well to install CUDA.
+
+```
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb
+sudo dpkg -i cuda-keyring_1.0-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda
+```
+
 ## Install pyenv
 
 ```
@@ -44,8 +53,6 @@ export PATH="/home/ubuntu/.local/bin:$PATH"
 ```
 
 run `source ~/.bashrc`
-
-
 
 ## Install & setup gh
 
