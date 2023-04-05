@@ -111,7 +111,7 @@ sudo apt-get -y install ./build/amazon-efs-utils*deb
 First navigate to the directory that `poetry-science-evn` is cloned into. Then just the first time on a new instance
 
 ```
-mkdir /efs
+sudo mkdir /efs
 chmod u+x scripts/mount_efs.sh
 ```
 
@@ -125,7 +125,12 @@ Finally mount efs with
 
 ### Setup 
 
-Copy `/path/poetry-science-env/configs/jupyter_notebook_config.py` to `~/.jupyter/jupyter_notebook_config.py`.
+Copy `/path/poetry-science-env/configs/jupyter_notebook_config.py` to `~/.jupyter/jupyter_notebook_config.py`. From the directory that `poetry-science-evn` is cloned into run
+
+'''
+mkdir ~/.jupyter
+cp configs/jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
+```
 
 ### Lauch
 

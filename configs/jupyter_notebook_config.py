@@ -967,5 +967,5 @@ c.NotebookApp.token = ''
 ## The interval (in seconds) on which to check for terminals exceeding the
 #  inactive timeout value.
 #c.TerminalManager.cull_interval = 300
-c.NotebookApp.kernel_spec_manager_class = 'environment_kernels.EnvironmentKernelSpecManager'
-c.NotebookApp.iopub_data_rate_limit = 10000000000
+#c.NotebookApp.kernel_spec_manager_class = 'environment_kernels.EnvironmentKernelSpecManager'
+#c.NotebookApp.iopub_data_rate_limit = 10000000000
