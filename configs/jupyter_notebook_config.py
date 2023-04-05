@@ -1,13 +1,18 @@
 # Configuration file for jupyter-notebook.
 
+import boto3
 from s3contents import S3ContentsManager
 
 c = get_config()
+credentials = boto3.Session().get_credentials()
 
 # Tell Jupyter to use S3ContentsManager for all storage.
 c.NotebookApp.contents_manager_class = S3ContentsManager
-c.S3ContentsManager.access_key_id = "<ACCESS_KEY_ID>"
-c.S3ContentsManager.secret_access_key = "<SECRET_ACCESS_KEY>"
+# c.S3ContentsManager.access_key_id = "<ACCESS_KEY_ID>"
+# c.S3ContentsManager.secret_access_key = "<SECRET_ACCESS_KEY>"
+c.S3ContentsManager.access_key_id = credentials.access_key
+c.S3ContentsManager.secret_access_key = credentials.secret_key
+
 # c.S3ContentsManager.session_token = "{{ AWS Session Token / IAM Session Token }}"
 c.S3ContentsManager.bucket = "enveda-datascience"
 
