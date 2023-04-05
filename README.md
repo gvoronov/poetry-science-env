@@ -4,10 +4,13 @@ Instrucitons for setting up a new EC2
 
 ## Install pyenv
 
-`curl https://pyenv.run | bash`
+```
+curl https://pyenv.run | bash
+```
 
 
 Add the following to `~/.bashrc`
+
 ```
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
@@ -18,7 +21,9 @@ run `source ~/.bashrc`
 
 ## Install poetry
 
-`curl -sSL https://install.python-poetry.org | python3 -`
+```
+curl -sSL https://install.python-poetry.org | python3 -
+```
 
 Add the following to `~/.bashrc`
 
