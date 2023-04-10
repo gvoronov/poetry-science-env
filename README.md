@@ -75,6 +75,21 @@ Can also install with any subset of the following optional dependencies
 ```
 poetry install --with chemistry,torch,metabolomics
 ```
+
+Finally if needed add some some typical packages I work with
+
+```
+poetry add git+https://github.com/enveda/numerical-mz.git#<BRANCH OR TAG>
+```
+
+```
+poetry add git+https://github.com/enveda/spectral-similarity.git#<BRANCH OR TAG>
+```
+
+```
+poetry add git+https://github.com/enveda/ms2-inference.git#gv-poetry<BRANCH OR TAG>
+```
+
 ## Setup AWS
 
 First setup AWS CLI
