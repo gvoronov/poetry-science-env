@@ -79,12 +79,9 @@ poetry install --with chemistry,torch,metabolomics
 Finally if needed add some some typical packages I work with
 
 ```
-# Currently using branch fp-transformer
-poetry add git+https://github.com/enveda/numerical-mz.git#<BRANCH OR TAG>
-# Currently using branch poetry
-poetry add git+https://github.com/enveda/spectral-similarity.git#<BRANCH OR TAG>
-# currently using branch gv-poetry
-poetry add git+https://github.com/enveda/ms2-inference.git#gv-poetry<BRANCH OR TAG>
+poetry add git+https://github.com/enveda/numerical-mz.git#gv-dev
+poetry add git+https://github.com/enveda/spectral-similarity.git#gv-dev
+poetry add git+https://github.com/enveda/ms2-inference.git#gv-dev
 ```
 
 ## Setup AWS
