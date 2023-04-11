@@ -178,3 +178,12 @@ jupyter notebook --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 
 ```
 jupyter-nbclassic --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 8859
 ```
+
+## Update permissions
+
+Sometimes e.g. after a fresh git pull need to reenable execute permissions for the following scritps.
+
+```
+chmod u+x scripts/mount_efs.sh
+chmod u+x scripts/launch_jupyter.sh
+```
