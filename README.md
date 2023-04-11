@@ -80,7 +80,13 @@ Finally if needed add some some typical packages I work with
 
 ```
 poetry add git+https://github.com/enveda/numerical-mz.git#gv-dev
+```
+
+```
 poetry add git+https://github.com/enveda/spectral-similarity.git#gv-dev
+```
+
+```
 poetry add git+https://github.com/enveda/ms2-inference.git#gv-dev
 ```
 
