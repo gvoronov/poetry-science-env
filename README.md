@@ -79,6 +79,10 @@ poetry install --with chemistry,torch,metabolomics
 Finally if needed add some some typical packages I work with
 
 ```
+poetry add git+https://github.com/enveda/metabolomics.git#main
+```
+
+```
 poetry add git+https://github.com/enveda/numerical-mz.git#gv-dev
 ```
 
