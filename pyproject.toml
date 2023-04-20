@@ -22,6 +22,8 @@ ipykernel = "^6.22.0"
 contexttimer = "^0.3.3"
 seaborn = "^0.12.2"
 tqdm = "^4.65.0"
+notebook = "^6.5.4"
+jupyter = "^1.0.0"
 
 [tool.poetry.group.chemistry]
 optional = true
