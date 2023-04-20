@@ -1,23 +1,23 @@
 # Configuration file for jupyter-notebook.
 
-# import boto3
-# from s3contents import S3ContentsManager
+import boto3
+from s3contents import S3ContentsManager
 
-# c = get_config()
-# credentials = boto3.Session().get_credentials()
+c = get_config()
+credentials = boto3.Session().get_credentials()
 
-# # Tell Jupyter to use S3ContentsManager for all storage.
-# c.NotebookApp.contents_manager_class = S3ContentsManager
-# # c.S3ContentsManager.access_key_id = "<ACCESS_KEY_ID>"
-# # c.S3ContentsManager.secret_access_key = "<SECRET_ACCESS_KEY>"
-# c.S3ContentsManager.access_key_id = credentials.access_key
-# c.S3ContentsManager.secret_access_key = credentials.secret_key
+# Tell Jupyter to use S3ContentsManager for all storage.
+c.NotebookApp.contents_manager_class = S3ContentsManager
+# c.S3ContentsManager.access_key_id = "<ACCESS_KEY_ID>"
+# c.S3ContentsManager.secret_access_key = "<SECRET_ACCESS_KEY>"
+c.S3ContentsManager.access_key_id = credentials.access_key
+c.S3ContentsManager.secret_access_key = credentials.secret_key
 
-# # c.S3ContentsManager.session_token = "{{ AWS Session Token / IAM Session Token }}"
-# c.S3ContentsManager.bucket = "enveda-datascience"
+# c.S3ContentsManager.session_token = "{{ AWS Session Token / IAM Session Token }}"
+c.S3ContentsManager.bucket = "enveda-datascience"
 
-# # Optional settings:
-# c.S3ContentsManager.prefix = "jupyter"
+# Optional settings:
+c.S3ContentsManager.prefix = "jupyter"
 # c.S3ContentsManager.sse = "AES256"
 # c.S3ContentsManager.signature_version = "s3v4"
 # c.S3ContentsManager.init_s3_hook = init_function  # See AWS key refresh
@@ -229,7 +229,7 @@
 #c.NotebookApp.iopub_msg_rate_limit = 1000
 
 ## The IP address the notebook server will listen on.
-#c.NotebookApp.ip = 'localhost'
+#c.NotebookApp.ip = '0.0.0.0'
 
 ## Supply extra arguments that will be passed to Jinja environment.
 #c.NotebookApp.jinja_environment_options = {}
@@ -296,7 +296,7 @@
 #c.NotebookApp.nbserver_extensions = {}
 
 ## The directory to use for notebooks and kernels.
-c.NotebookApp.notebook_dir = '/efs/gennadyvoronov/notebooks'
+#c.NotebookApp.notebook_dir = ''
 
 ## Whether to open in a browser after starting. The specific browser used is
 #  platform dependent and determined by the python standard library `webbrowser`
