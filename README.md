@@ -171,18 +171,6 @@ Then (typically through `screen`)
 ./scripts/launch_jupyter.sh <PORT>
 ```
 
-### Old launch
-
-* on a standard EC2
-```
-jupyter notebook --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port <PORT>
-```
-
-* on DS-EC2
-```
-jupyter-nbclassic --no-browser --notebook-dir /efs/gennadyvoronov/jupyter --port 8859
-```
-
 ## Update permissions
 
 Sometimes e.g. after a fresh git pull need to reenable execute permissions for the following scritps.
