@@ -3,20 +3,20 @@
 # import boto3
 # from s3contents import S3ContentsManager
 
-c = get_config()
+# c = get_config()
 # credentials = boto3.Session().get_credentials()
 
-# Tell Jupyter to use S3ContentsManager for all storage.
+# # Tell Jupyter to use S3ContentsManager for all storage.
 # c.NotebookApp.contents_manager_class = S3ContentsManager
-# c.S3ContentsManager.access_key_id = "<ACCESS_KEY_ID>"
-# c.S3ContentsManager.secret_access_key = "<SECRET_ACCESS_KEY>"
+# # c.S3ContentsManager.access_key_id = "<ACCESS_KEY_ID>"
+# # c.S3ContentsManager.secret_access_key = "<SECRET_ACCESS_KEY>"
 # c.S3ContentsManager.access_key_id = credentials.access_key
 # c.S3ContentsManager.secret_access_key = credentials.secret_key
 
-# c.S3ContentsManager.session_token = "{{ AWS Session Token / IAM Session Token }}"
+# # c.S3ContentsManager.session_token = "{{ AWS Session Token / IAM Session Token }}"
 # c.S3ContentsManager.bucket = "enveda-datascience"
 
-# Optional settings:
+# # Optional settings:
 # c.S3ContentsManager.prefix = "jupyter"
 # c.S3ContentsManager.sse = "AES256"
 # c.S3ContentsManager.signature_version = "s3v4"
@@ -67,7 +67,7 @@ c = get_config()
 #  Use '*' to allow any origin to access your server.
 #
 #  Takes precedence over allow_origin_pat.
-c.NotebookApp.allow_origin = '*'
+#c.NotebookApp.allow_origin = '*'
 
 ## Use a regular expression for the Access-Control-Allow-Origin header
 #
@@ -229,7 +229,7 @@ c.NotebookApp.allow_origin = '*'
 #c.NotebookApp.iopub_msg_rate_limit = 1000
 
 ## The IP address the notebook server will listen on.
-c.NotebookApp.ip = '0.0.0.0'
+c.NotebookApp.ip = 'localhost'
 
 ## Supply extra arguments that will be passed to Jinja environment.
 #c.NotebookApp.jinja_environment_options = {}
