@@ -67,7 +67,7 @@ c.S3ContentsManager.prefix = "jupyter"
 #  Use '*' to allow any origin to access your server.
 #
 #  Takes precedence over allow_origin_pat.
-#c.NotebookApp.allow_origin = ''
+c.NotebookApp.allow_origin = '*'
 
 ## Use a regular expression for the Access-Control-Allow-Origin header
 #
