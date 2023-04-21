@@ -44,5 +44,5 @@ transformers = "^4.24.0"
 optional = true
 
 [tool.poetry.group.metabolomics.dependencies]
-metabolomics = {git = "https://github.com/enveda/metabolomics.git", rev = "v0.3.4"}
+metabolomics = {git = "https://github.com/enveda/metabolomics.git", branch = "main"}
 
