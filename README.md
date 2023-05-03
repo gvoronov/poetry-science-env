@@ -73,7 +73,7 @@ poetry run python -m ipykernel install --user --name sci-env
 Can also install with any subset of the following optional dependencies
 
 ```
-poetry install --with chemistry,torch,metabolomics
+poetry install --with chemistry,torch
 ```
 
 Finally if needed add some some typical packages I work with

@@ -40,9 +40,3 @@ pytorch-lightning = "^1.6.5"
 wandb = "^0.13.7"
 transformers = "^4.24.0"
 
-[tool.poetry.group.metabolomics]
-optional = true
-
-[tool.poetry.group.metabolomics.dependencies]
-metabolomics = {git = "https://github.com/enveda/metabolomics.git", branch = "main"}
-
