@@ -67,13 +67,24 @@ git clone https://github.com/gvoronov/poetry-science-env.git
 cd poetry-science-env/
 pyenv local 3.9
 poetry install
-poetry run python -m ipykernel install --user --name sci-env
-```
+'''
 
 Can also install with any subset of the following optional dependencies
 
 ```
 poetry install --with chemistry,torch
+```
+
+If a jupyter notebook kernel based on this environnement is required, one can be created via
+
+'''
+poetry run python -m ipykernel install --user --name sci-env
+```
+
+Kernels can be removed via
+
+```
+poetry run jupyter kernelspec uninstall unwanted-kernel
 ```
 
 Finally if needed add some some typical packages I work with
