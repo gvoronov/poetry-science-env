@@ -67,7 +67,7 @@ git clone https://github.com/gvoronov/poetry-science-env.git
 cd poetry-science-env/
 pyenv local 3.9
 poetry install
-'''
+```
 
 Can also install with any subset of the following optional dependencies
 
