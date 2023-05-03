@@ -75,6 +75,8 @@ Can also install with any subset of the following optional dependencies
 poetry install --with chemistry,torch
 ```
 
+### Setup notebook kernels
+
 If a jupyter notebook kernel based on this environnement is required, one can be created via
 
 ```
@@ -86,6 +88,8 @@ Kernels can be removed via
 ```
 poetry run jupyter kernelspec uninstall unwanted-kernel
 ```
+
+### Setup common packages
 
 Finally if needed add some some typical packages I work with
 
