@@ -77,7 +77,7 @@ poetry install --with chemistry,torch
 
 If a jupyter notebook kernel based on this environnement is required, one can be created via
 
-'''
+```
 poetry run python -m ipykernel install --user --name sci-env
 ```
 
