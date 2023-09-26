@@ -103,6 +103,10 @@ poetry add git+https://github.com/enveda/numerical-mz.git#gv-dev
 ```
 
 ```
+poetry add git+https://github.com/enveda/molecular-library-search.git#gv-dev
+```
+
+```
 poetry add git+https://github.com/enveda/spectral-similarity.git#gv-dev
 ```
 
