@@ -95,7 +95,7 @@ poetry run jupyter kernelspec uninstall unwanted-kernel
 Finally if needed add some some typical packages I work with
 
 ```
-poetry add git+https://github.com/enveda/metabolomics.git#main
+poetry add git+https://github.com/enveda/metabolomics.git#gv-dev
 ```
 
 ```
