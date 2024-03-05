@@ -114,6 +114,14 @@ poetry add git+https://github.com/enveda/spectral-similarity.git#gv-dev
 poetry add git+https://github.com/enveda/ms2-inference.git#gv-dev
 ```
 
+```
+poetry add git+https://github.com/enveda/specformers.git#gv-dev
+```
+
+```
+poetry add git+https://github.com/enveda/spectral-inference-zoo.git#gv-dev
+```
+
 ## Setup AWS
 
 First setup AWS CLI
