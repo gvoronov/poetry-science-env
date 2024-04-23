@@ -115,6 +115,10 @@ poetry add git+https://github.com/enveda/ms2-inference.git#gv-dev
 ```
 
 ```
+poetry add git+https://github.com/enveda/denovo-structure-prediction.git#gv-dev
+```
+
+```
 poetry add git+https://github.com/enveda/specformers.git#gv-dev
 ```
 
