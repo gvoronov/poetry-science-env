@@ -94,13 +94,31 @@ poetry run jupyter kernelspec uninstall unwanted-kernel
 
 Finally if needed add some some typical packages I work with
 
+#### Core packages
+
 ```
 poetry add git+https://github.com/enveda/metabolomics.git#gv-dev
 ```
 
 ```
+poetry add git+https://github.com/enveda/spectral-inference-zoo.git#gv-dev
+```
+
+#### DL frameworks
+
+```
 poetry add git+https://github.com/enveda/numerical-mz.git#gv-dev
 ```
+
+```
+poetry add git+https://github.com/enveda/denovo-structure-prediction.git#gv-dev
+```
+
+```
+poetry add git+https://github.com/enveda/specformers.git#gv-dev
+```
+
+#### Support a specific task packages
 
 ```
 poetry add git+https://github.com/enveda/molecular-library-search.git#gv-dev
@@ -112,18 +130,6 @@ poetry add git+https://github.com/enveda/spectral-similarity.git#gv-dev
 
 ```
 poetry add git+https://github.com/enveda/ms2-inference.git#gv-dev
-```
-
-```
-poetry add git+https://github.com/enveda/denovo-structure-prediction.git#gv-dev
-```
-
-```
-poetry add git+https://github.com/enveda/specformers.git#gv-dev
-```
-
-```
-poetry add git+https://github.com/enveda/spectral-inference-zoo.git#gv-dev
 ```
 
 ```
