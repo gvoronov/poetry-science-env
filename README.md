@@ -33,7 +33,13 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 ```
 
-Run `source ~/.bashrc`, then install python.
+Run 
+
+```bash
+source ~/.bashrc
+```
+
+then install python.
 
 ```bash
 pyenv install 3.9.13
@@ -57,7 +63,11 @@ Add the following to `~/.bashrc`
 export PATH="/home/ubuntu/.local/bin:$PATH"
 ```
 
-run `source ~/.bashrc`
+run 
+
+```bash
+source ~/.bashrc
+```
 
 ## Install & setup gh
 
