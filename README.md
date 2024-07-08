@@ -39,6 +39,12 @@ Run `source ~/.bashrc`, then install python.
 pyenv install 3.9.13
 ```
 
+or
+
+```
+pyenv install 3.10.13
+```
+
 ## Install poetry
 
 ```
