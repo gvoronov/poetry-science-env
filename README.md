@@ -39,7 +39,7 @@ Run `source ~/.bashrc`, then install python.
 pyenv install 3.9.13
 ```
 
-or
+and/or
 
 ```
 pyenv install 3.10.13
