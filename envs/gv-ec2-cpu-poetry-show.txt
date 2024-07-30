@@ -1,0 +1,215 @@
+poetry show
+absl-py                   2.1.0          Abseil Python Common Libraries, see https://github.com/abseil/abseil-py.
+aiobotocore               2.12.2         Async client for aws services using botocore and aiohttp
+aiohttp                   3.9.3          Async http client/server framework (asyncio)
+aioitertools              0.11.0         itertools and builtins for AsyncIO and mixed iterables
+aiosignal                 1.3.1          aiosignal: a list of registered asynchronous callbacks
+antlr4-python3-runtime    4.9.3          ANTLR 4.9.3 runtime for Python 3.7
+anyio                     4.3.0          High level compatibility layer for multiple asynchronous event loop implem...
+appdirs                   1.4.4          A small Python module for determining appropriate platform-specific dirs, ...
+argon2-cffi               23.1.0         Argon2 for Python
+argon2-cffi-bindings      21.2.0         Low-level CFFI bindings for Argon2
+arrow                     1.3.0          Better dates & times for Python
+asttokens                 2.4.1          Annotate AST trees with source code positions
+async-lru                 2.0.4          Simple LRU cache for asyncio
+async-timeout             4.0.3          Timeout context manager for asyncio programs
+attrs                     23.2.0         Classes Without Boilerplate
+awswrangler               3.7.2          Pandas on AWS.
+babel                     2.14.0         Internationalization utilities
+beautifulsoup4            4.12.3         Screen-scraping library
+bleach                    6.1.0          An easy safelist-based HTML-sanitizing tool.
+boto3                     1.34.51        The AWS SDK for Python
+botocore                  1.34.51        Low-level, data-driven core of boto 3.
+certifi                   2024.2.2       Python package for providing Mozilla's CA Bundle.
+cffi                      1.16.0         Foreign Function Interface for Python calling C code.
+charset-normalizer        3.3.2          The Real First Universal Charset Detector. Open, modern and actively maint...
+click                     8.1.7          Composable command line interface toolkit
+cmake                     3.29.0.1       CMake is an open-source, cross-platform family of tools designed to build,...
+comm                      0.2.2          Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc.
+contexttimer              0.3.3          A timer context manager measuring the clock wall time of the code block it...
+contourpy                 1.2.1          Python library for calculating contours of 2D quadrilateral grids
+cycler                    0.12.1         Composable style cycles
+datasets                  2.18.0         HuggingFace community-driven open-source library of datasets
+debugpy                   1.8.1          An implementation of the Debug Adapter Protocol for Python
+decorator                 5.1.1          Decorators for Humans
+deepsmiles                1.0.1          DeepSMILES, a SMILES-like syntax suited to machine learning
+defusedxml                0.7.1          XML bomb protection for Python stdlib modules
+deprecated                1.2.14         Python @deprecated decorator to deprecate old python classes, functions or...
+dill                      0.3.8          serialize all of Python
+docker-pycreds            0.4.0          Python bindings for the docker credentials store API
+et-xmlfile                1.1.0          An implementation of lxml.xmlfile for the standard library
+exceptiongroup            1.2.0          Backport of PEP 654 (exception groups)
+executing                 2.0.1          Get the currently executing AST node of a frame, and other information
+fastjsonschema            2.19.1         Fastest Python implementation of JSON schema
+filelock                  3.13.3         A platform independent file lock.
+fonttools                 4.50.0         Tools to manipulate font files
+fqdn                      1.5.1          Validates fully-qualified domain names against RFC 1123, so that they are ...
+frozenlist                1.4.1          A list-like structure which implements collections.abc.MutableSequence
+fsspec                    2023.12.2      File-system specification
+future                    1.0.0          Clean single-source support for Python 3 and 2
+gensim                    4.3.2          Python framework for fast Vector Space Modelling
+gitdb                     4.0.11         Git Object Database
+gitpython                 3.1.43         GitPython is a Python library used to interact with Git repositories
+grpcio                    1.62.1         HTTP/2-based RPC framework
+h11                       0.14.0         A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+httpcore                  1.0.5          A minimal low-level HTTP client.
+httpx                     0.27.0         The next generation HTTP client.
+huggingface-hub           0.22.2         Client library to download and publish models, datasets and other repos on...
+idna                      3.6            Internationalized Domain Names in Applications (IDNA)
+importlib-metadata        7.1.0          Read metadata from Python packages
+importlib-resources       6.4.0          Read resources from Python packages
+ipykernel                 6.29.4         IPython Kernel for Jupyter
+ipython                   8.18.1         IPython: Productive Interactive Computing
+ipywidgets                8.1.2          Jupyter interactive widgets
+isoduration               20.11.0        Operations with ISO 8601 durations
+jedi                      0.19.1         An autocompletion tool for Python that can be used for text editors.
+jinja2                    3.1.3          A very fast and expressive template engine.
+jmespath                  1.0.1          JSON Matching Expressions
+joblib                    1.3.2          Lightweight pipelining with Python functions
+json5                     0.9.24         A Python implementation of the JSON5 data format.
+jsonpointer               2.4            Identify specific nodes in a JSON document (RFC 6901)
+jsonschema                4.21.1         An implementation of JSON Schema validation for Python
+jsonschema-specifications 2023.12.1      The JSON Schema meta-schemas and vocabularies, exposed as a Registry
+jupyter                   1.0.0          Jupyter metapackage. Install all the Jupyter components in one go.
+jupyter-client            8.6.1          Jupyter protocol implementation and client libraries
+jupyter-console           6.6.3          Jupyter terminal console
+jupyter-core              5.7.2          Jupyter core package. A base package on which Jupyter projects rely.
+jupyter-events            0.10.0         Jupyter Event System library
+jupyter-lsp               2.2.4          Multi-Language Server WebSocket proxy for Jupyter Notebook/Lab server
+jupyter-server            2.13.0         The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web ap...
+jupyter-server-terminals  0.5.3          A Jupyter Server Extension Providing Terminals.
+jupyterlab                4.1.5          JupyterLab computational environment
+jupyterlab-pygments       0.3.0          Pygments theme using JupyterLab CSS variables
+jupyterlab-server         2.25.4         A set of server components for JupyterLab and JupyterLab like applications.
+jupyterlab-widgets        3.0.10         Jupyter interactive widgets for JupyterLab
+kiwisolver                1.4.5          A fast implementation of the Cassowary constraint solver
+lightning-utilities       0.11.2         Lightning toolbox for across the our ecosystem.
+lit                       18.1.2         A Software Testing Tool
+llvmlite                  0.39.1         lightweight wrapper around basic LLVM functionality
+lxml                      5.2.1          Powerful and Pythonic XML processing library combining libxml2/libxslt wit...
+markdown                  3.6            Python implementation of John Gruber's Markdown.
+markupsafe                2.1.5          Safely add untrusted strings to HTML/XML markup.
+matplotlib                3.8.4          Python plotting package
+matplotlib-inline         0.1.6          Inline Matplotlib backend for Jupyter
+metabolomics              1.7.3 a02baa5  Tools for processing and visualizing metabolomics data
+misosoup-client           5.4.0 07c1fed  Misosoup Client
+mistune                   3.0.2          A sane and fast Markdown parser with useful plugins and renderers
+molecular-library-search  0.2.3 9a4d130
+mpmath                    1.3.0          Python library for arbitrary-precision floating-point arithmetic
+ms2-inference             0.4.2 0fd6f91
+multidict                 6.0.5          multidict implementation
+multiprocess              0.70.16        better multiprocessing and multithreading in Python
+nbclient                  0.10.0         A client library for executing notebooks. Formerly nbconvert's ExecutePrep...
+nbconvert                 7.16.3         Converting Jupyter Notebooks (.ipynb files) to other formats.  Output form...
+nbformat                  5.10.4         The Jupyter Notebook format
+nest-asyncio              1.6.0          Patch asyncio to allow nested event loops
+networkx                  3.2.1          Python package for creating and manipulating graphs and networks
+notebook                  7.1.2          Jupyter Notebook - A web-based notebook environment for interactive computing
+notebook-shim             0.2.4          A shim layer for notebook traits and config
+numba                     0.56.4         compiling Python code using LLVM
+numerical-mz              0.7.2 e80a954
+numpy                     1.23.5         NumPy is the fundamental package for array computing with Python.
+nvidia-cublas-cu11        11.10.3.66     CUBLAS native runtime libraries
+nvidia-cuda-cupti-cu11    11.7.101       CUDA profiling tools runtime libs.
+nvidia-cuda-nvrtc-cu11    11.7.99        NVRTC native runtime libraries
+nvidia-cuda-runtime-cu11  11.7.99        CUDA Runtime native Libraries
+nvidia-cudnn-cu11         8.5.0.96       cuDNN runtime libraries
+nvidia-cufft-cu11         10.9.0.58      CUFFT native runtime libraries
+nvidia-curand-cu11        10.2.10.91     CURAND native runtime libraries
+nvidia-cusolver-cu11      11.4.0.1       CUDA solver native runtime libraries
+nvidia-cusparse-cu11      11.7.4.91      CUSPARSE native runtime libraries
+nvidia-nccl-cu11          2.14.3         NVIDIA Collective Communication Library (NCCL) Runtime
+nvidia-nvtx-cu11          11.7.91        NVIDIA Tools Extension
+omegaconf                 2.3.0          A flexible configuration library
+openpyxl                  3.1.2          A Python library to read/write Excel 2010 xlsx/xlsm files
+overrides                 7.7.0          A decorator to automatically detect mismatch when overriding a method.
+packaging                 24.0           Core utilities for Python packages
+pandas                    1.5.3          Powerful data structures for data analysis, time series, and statistics
+pandocfilters             1.5.1          Utilities for writing pandoc filters in python
+parso                     0.8.3          A Python Parser
+pathtools                 0.1.2          File system general utilities
+pexpect                   4.9.0          Pexpect allows easy control of interactive console applications.
+pillow                    10.3.0         Python Imaging Library (Fork)
+platformdirs              4.2.0          A small Python package for determining appropriate platform-specific dirs,...
+prometheus-client         0.20.0         Python client for the Prometheus monitoring system.
+prompt-toolkit            3.0.43         Library for building powerful interactive command lines in Python
+protobuf                  4.25.3
+psutil                    5.9.8          Cross-platform lib for process and system monitoring in Python.
+ptyprocess                0.7.0          Run a subprocess in a pseudo terminal
+pure-eval                 0.2.2          Safely evaluate AST nodes without side effects
+py4j                      0.10.9.7       Enables Python programs to dynamically access arbitrary Java objects
+pyarrow                   15.0.2         Python library for Apache Arrow
+pyarrow-hotfix            0.6
+pycparser                 2.22           C parser in Python
+pygments                  2.17.2         Pygments is a syntax highlighting package written in Python.
+pyparsing                 3.1.2          pyparsing module - Classes and methods to define and execute parsing grammars
+pyspark                   3.5.1          Apache Spark Python API
+pyteomics                 4.7.1          A framework for proteomics data analysis.
+python-dateutil           2.9.0.post0    Extensions to the standard Python datetime module
+python-decouple           3.8            Strict separation of settings from code.
+python-json-logger        2.0.7          A python library adding a json log formatter
+pytorch-lightning         2.2.1          PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. S...
+pytz                      2024.1         World timezone definitions, modern and historical
+pyyaml                    6.0.1          YAML parser and emitter for Python
+pyzmq                     25.1.2         Python bindings for 0MQ
+qtconsole                 5.5.1          Jupyter Qt console
+qtpy                      2.4.1          Provides an abstraction layer on top of the various Qt bindings (PyQt5/6 a...
+rdkit                     2023.9.5       A collection of chemoinformatics and machine-learning software written in ...
+referencing               0.34.0         JSON Referencing + Python
+regex                     2023.12.25     Alternative regular expression module, to replace re.
+requests                  2.31.0         Python HTTP for Humans.
+rfc3339-validator         0.1.4          A pure python RFC3339 validator
+rfc3986-validator         0.1.1          Pure python rfc3986 validator
+rpds-py                   0.18.0         Python bindings to Rust's persistent data structures (rpds)
+s3fs                      2023.12.2      Convenient Filesystem interface over S3
+s3path                    0.5.2
+s3transfer                0.10.1         An Amazon S3 Transfer Manager
+safetensors               0.4.2
+scikit-learn              1.3.2          A set of python modules for machine learning and data mining
+scipy                     1.13.0         Fundamental algorithms for scientific computing in Python
+seaborn                   0.12.2         Statistical data visualization
+send2trash                1.8.2          Send file to trash natively under Mac OS X, Windows and Linux
+sentry-sdk                1.44.1         Python client for Sentry (https://sentry.io)
+setproctitle              1.3.3          A Python module to customize the process title
+setuptools                69.2.0         Easily download, build, install, upgrade, and uninstall Python packages
+six                       1.16.0         Python 2 and 3 compatibility utilities
+smart-open                7.0.4          Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, ...
+smmap                     5.0.1          A pure Python implementation of a sliding window memory map manager
+sniffio                   1.3.1          Sniff out which async library your code is running under
+soupsieve                 2.5            A modern CSS selector implementation for Beautiful Soup.
+specformers               2.3.0 c0d06ff  specformers
+spectral-inference-zoo    1.0.2 4ec9663  implementations of re-usable modules for spectral inference
+spectral-similarity       0.2.3 47a0feb
+stack-data                0.6.3          Extract data from python stack frames and tracebacks for informative displays
+sympy                     1.12           Computer algebra system (CAS) in Python
+tensorboard               2.16.2         TensorBoard lets you watch Tensors Flow
+tensorboard-data-server   0.7.2          Fast data loading for TensorBoard
+terminado                 0.18.1         Tornado websocket backend for the Xterm.js Javascript terminal emulator li...
+threadpoolctl             3.4.0          threadpoolctl
+tinycss2                  1.2.1          A tiny CSS parser
+tokenizers                0.15.2
+tomli                     2.0.1          A lil' TOML parser
+torch                     2.0.0          Tensors and Dynamic neural networks in Python with strong GPU acceleration
+torchmetrics              1.3.2          PyTorch native Metrics
+tornado                   6.4            Tornado is a Python web framework and asynchronous networking library, ori...
+tqdm                      4.66.2         Fast, Extensible Progress Meter
+traitlets                 5.14.2         Traitlets Python configuration system
+transformers              4.39.3         State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+triton                    2.0.0          A language and compiler for custom Deep Learning operations
+types-python-dateutil     2.9.0.20240316 Typing stubs for python-dateutil
+typing-extensions         4.10.0         Backported and Experimental Type Hints for Python 3.8+
+uncertainties             3.1.7          Transparent calculations with uncertainties on the quantities involved (ak...
+uri-template              1.3.0          RFC 6570 URI Template Processor
+urllib3                   1.26.18        HTTP library with thread-safe connection pooling, file post, and more.
+wandb                     0.13.11        A CLI and library for interacting with the Weights and Biases API.
+wcwidth                   0.2.13         Measures the displayed width of unicode strings in a terminal
+webcolors                 1.13           A library for working with the color formats defined by HTML and CSS.
+webencodings              0.5.1          Character encoding aliases for legacy web content
+websocket-client          1.7.0          WebSocket client for Python with low level API options
+werkzeug                  3.0.2          The comprehensive WSGI web application library.
+wheel                     0.43.0         A built-package format for Python
+widgetsnbextension        4.0.10         Jupyter interactive widgets for Jupyter Notebook
+wrapt                     1.16.0         Module for decorators, wrappers and monkey patching.
+xxhash                    3.4.1          Python binding for xxHash
+yarl                      1.9.4          Yet another URL library
+zipp                      3.18.1         Backport of pathlib-compatible object wrapper for zip files
