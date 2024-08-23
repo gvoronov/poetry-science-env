@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "poetry-science-env"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+include = ["pyproject.toml"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.23.4"
+pandas = "^1.5.1"
+scipy = "^1.10.1"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+networkx = "^3.0"
+numba = "^0.56.4"
+awswrangler = "^3.0.0"
+boto3 = "^1.24.59"
+s3fs = "^2023.4.0"
+ipython = "^8.12.2"
+contexttimer = "^0.3.3"
+seaborn = "^0.12.2"
+tqdm = "^4.65.0"
+jupyter = "^1.0.0"
+spectral-inference-zoo = {git = "https://github.com/enveda/spectral-inference-zoo.git", rev = "gv-dev"}
+metabolomics = {git = "https://github.com/enveda/metabolomics.git", rev = "gv-dev"}
+rdkit = "2023.9.5"
+denovo-structure-prediction = {git = "https://github.com/enveda/denovo-structure-prediction.git", rev = "gv-dev"}
+molecular-library-search = {git = "https://github.com/enveda/molecular-library-search.git", rev = "gv-dev"}
+spectral-similarity = {git = "https://github.com/enveda/spectral-similarity.git", rev = "gv-dev"}
+ms2-inference = {git = "https://github.com/enveda/ms2-inference.git", rev = "gv-dev"}
+molecular-graph-edit = {git = "https://github.com/enveda/molecular-graph-edit.git", rev = "gv-dev"}
+azure-identity = "^1.17.1"
+azure-storage-blob = "^12.21.0"
+azure-mgmt-resource = "^23.1.1"
+azure-mgmt-storage = "^21.2.1"
+azure-mgmt-subscription = "^3.1.1"
+tokenizers = "^0.19.1"
+deepsmiles = "^1.0.1"
+specformers = {git = "https://github.com/enveda/specformers.git", rev = "gv-dev"}
+levenshtein = "^0.25.1"
+numerical-mz = {git = "https://github.com/enveda/numerical-mz.git", rev = "gv-dev"}
+transformers = "^4.43.3"
+fastparquet = "^2024.5.0"
