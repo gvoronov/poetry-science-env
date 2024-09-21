@@ -237,3 +237,11 @@ Sometimes e.g. after a fresh git pull need to reenable execute permissions for t
 chmod u+x scripts/mount_efs.sh
 chmod u+x scripts/launch_jupyter.sh
 ```
+
+# Setup and login to Azure CLI
+
+```
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+az login --use-device-code
+```
+
