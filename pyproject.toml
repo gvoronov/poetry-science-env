@@ -8,12 +8,10 @@ include = ["pyproject.toml"]
 package-mode = false
 
 [tool.poetry.dependencies]
-python = ">=3.9,<=3.11"
+python = ">=3.10,<3.11"
 numpy = "^1.23.4"
-pandas = "^1.5.1"
 scipy = "^1.10.1"
 matplotlib = "^3.7.1"
-scikit-learn = "^1.2.2"
 networkx = "^3.0"
 numba = "^0.56.4"
 awswrangler = "^3.0.0"
@@ -24,4 +22,3 @@ contexttimer = "^0.3.3"
 seaborn = "^0.12.2"
 tqdm = "^4.65.0"
 jupyter = "^1.0.0"
-
