@@ -153,7 +153,7 @@ poetry add git+https://github.com/enveda/molecular-graph-edit.git#gv-dev
 ```
 
 ```bash
-poetry add git+https://github.com/enveda/confidence-model-experimentation#gv-dev
+poetry add git+https://github.com/enveda/confidence_model_experimentation#gv-dev
 ```
 
 ## Setup AWS
