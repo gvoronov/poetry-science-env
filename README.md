@@ -152,6 +152,10 @@ poetry add git+https://github.com/enveda/ms2-inference.git#gv-dev
 poetry add git+https://github.com/enveda/molecular-graph-edit.git#gv-dev
 ```
 
+```bash
+poetry add git+https://github.com/enveda/confidence-model-experimentation#gv-dev
+```
+
 ## Setup AWS
 
 First setup AWS CLI
