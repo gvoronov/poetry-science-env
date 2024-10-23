@@ -249,6 +249,6 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 az login --use-device-code
 
 sudo apt-get install azcopy
-azcopy login --tenant-id d1faf204-66df-4200-8efd-265b5a40d075
+azcopy login --tenant-id <TENANT_ID>
 ```
 
