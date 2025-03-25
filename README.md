@@ -81,8 +81,8 @@ gh auth login
 ```bash
 git clone https://github.com/gvoronov/poetry-science-env.git
 cd poetry-science-env/
-pyenv local 3.9
-poetry env use 3.9
+pyenv local 3.10
+poetry env use 3.10
 poetry install
 ```
 
