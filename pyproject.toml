@@ -43,3 +43,12 @@ azure-mgmt-subscription = "^3.1.1"
 pyarrow = "^18.0.0"
 fastparquet = "^2024.5.0"
 levenshtein = "0.25.1"
+
+[[tool.poetry.source]]
+name = "Enveda"
+url = "https://packagesncus01.z14.web.core.windows.net/simple/"
+priority = "primary"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "supplemental"
