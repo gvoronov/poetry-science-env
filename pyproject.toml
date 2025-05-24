@@ -46,7 +46,7 @@ levenshtein = "0.25.1"
 
 [[tool.poetry.source]]
 name = "Enveda"
-url = "https://packagesncus01.z14.web.core.windows.net/simple/"
+url = "https://pypi.dev.enveda.io/simple/"
 priority = "primary"
 
 [[tool.poetry.source]]
