@@ -28,11 +28,6 @@ denovo-structure-prediction = {git = "https://github.com/enveda/denovo-structure
 molecular-graph-edit = {git = "https://github.com/enveda/molecular-graph-edit.git", rev = "gv-dev"}
 molecular-library-search = {git = "https://github.com/enveda/molecular-library-search.git", rev = "gv-dev"}
 
-deepsmiles = "^1.0.1"
-tokenizers = ">=0.20.1"
-transformers = ">=4.46.0"
-torch-geometric = "2.4.0"
-
 azure-storage-blob = "^12.20.0"
 azure-keyvault-secrets = "^4.8.0"
 azure-identity = "^1.17.1"
