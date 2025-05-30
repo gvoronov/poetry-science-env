@@ -26,7 +26,6 @@ metabolomics = {git = "https://github.com/enveda/metabolomics.git", rev = "gv-de
 spectral-inference-zoo = {git = "https://github.com/enveda/spectral-inference-zoo.git", rev = "gv-dev"}
 denovo-structure-prediction = {git = "https://github.com/enveda/denovo-structure-prediction.git", rev = "gv-dev"}
 molecular-graph-edit = {git = "https://github.com/enveda/molecular-graph-edit.git", rev = "gv-dev"}
-molecular-library-search = {git = "https://github.com/enveda/molecular-library-search.git", rev = "gv-dev"}
 
 azure-storage-blob = "^12.20.0"
 azure-keyvault-secrets = "^4.8.0"
