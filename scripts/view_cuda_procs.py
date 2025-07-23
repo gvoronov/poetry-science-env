@@ -12,8 +12,8 @@ def main():
         f"sudo lsof /dev/nvidia* | awk '$3 == \"{args.user}\" {{print $2}}' | sort | uniq"
     )
     out = subprocess.run(get_process_id_cmd, capture_output=True, shell=True)
-    print(out.stdout)
-    
+    print(out.stdout.decode())
+
     # if args.kill:
     #     kill_cuda_procs_cmd = (
     #         "kill -9 " + out.stdout.decode().rstrip("\n").replace("\n", " ")
