@@ -4,10 +4,10 @@ import argparse
 def main():
     parser = argparse.ArgumentParser(description="see running CUDA processes")
     parser.add_argument("--user", type=str, default="")
-    parser.add_argument("--kill", type=bool, default=False)
+    parser.add_argument("--kill", action="store_true", type=bool, default=False)
     args = parser.parse_args()
     print(args)
-    
+
     get_process_id_cmd = (
         f"sudo lsof /dev/nvidia* | awk '$3 == \"{args.user}\" {{print $2}}' | sort | uniq"
     )
